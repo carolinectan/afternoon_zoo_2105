@@ -19,7 +19,7 @@ class Animal
     @age * 7
   end
 
-  def feed!(pounds_of_food)
+  def feed!(pounds_of_food) # ! is not an operator here
     @weight += pounds_of_food
   end
 end
